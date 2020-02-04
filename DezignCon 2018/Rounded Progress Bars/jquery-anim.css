@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    width: 600px;
+    height: 15px;
+}
+.progressbars p{
+    display: none;
+}
+.progressbars h4{
+    display: none;
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.container{
+    padding: 0 20px;
+}
+.progress{
+    width: 0%;
+    height: 100%;
+}
+.progress-bar-1{
+    background-color: blue;
+}
+.progress-bar-2{
+    background-color: orange;
+}
+.progress-bar-3{
+    background-color: green;
+}
+.progress-bar-4{
+    background-color: red;
+}
+
+.progressbars{
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 900px) {
+    .progressbars{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .progressbars{
+        width: 100%;
+    }
+}
+.btn{
+    border: 0;
+    background: 0;
+    margin: 0;
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin: 20px;
+    outline: 0;
+    border-radius: 8px;
+    clear: both;
+    display: inline-block;
+    padding: 10px 30px;
+    position: absolute;
+    top: 500px;
+}
+.progressbars .bar{
+    float:left;
+}
+.percentage{
+    visibility: hidden;
+}
+.progressbars .percentage small{
+    vertical-align: 20px;
+    font-size: 30px;
+}
+.progressbars .percentage{
+    font-size: 60px;
+    font-weight: normal;
+    float: left;
+    margin: -35px 0 20px 30px;
+    padding: 0;
+    line-height: 45px;
+    
+}
+.circle{
+    position: relative;
+    display: inline-block;
+    margin:  20px;
+}
+strong{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 2em;
+}

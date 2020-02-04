@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+#text{
+    font-size: 100px;
+    background-repeat: repeat-x;
+    background: linear-gradient(to right, #000 50%, #00aeef 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: 0 0;    
+}
+#button{
+    padding: 10px;
+    background: 0;
+    border: 0;
+    background-color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+}

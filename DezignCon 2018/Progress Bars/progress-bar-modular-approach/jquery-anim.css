@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    width: 300px;
+    height: 15px;
+}
+.progressbars p{
+    display: none;
+}
+.progressbars{
+    margin: 10px 30px;
+    clear: both;
+}
+.progress{
+    width: 0%;
+    height: 100%;
+}
+.progress-bar-1{
+    background-color: blue;
+}
+.progress-bar-2{
+    background-color: orange;
+}
+.progress-bar-3{
+    background-color: green;
+}
+.progress-bar-4{
+    background-color: red;
+}
+
+.progressbars{
+    display: inline-block;
+    margin: 30px 0;
+    padding: 0;
+}
+
+.btn{
+    border: 0;
+    background: 0;
+    margin: 0;
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin: 20px;
+    outline: 0;
+    border-radius: 8px;
+    clear: both;
+    display: inline-block;
+    padding: 10px 30px;
+    position: absolute;
+    top: 500px;
+}
+.progressbars .bar{
+    float:left;
+}
+.percentage{
+    visibility: hidden;
+}
+.progressbars .percentage{
+    font-size: 50px;
+    float: left;
+    margin: -20px 0 20px 30px;
+}
+
